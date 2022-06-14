@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E376257B2857BF2F0007C730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376257A2857BF2F0007C730 /* AppDelegate.swift */; };
 		E376257D2857BF2F0007C730 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376257C2857BF2F0007C730 /* SceneDelegate.swift */; };
-		E376257F2857BF2F0007C730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376257E2857BF2F0007C730 /* ViewController.swift */; };
 		E37625822857BF2F0007C730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37625802857BF2F0007C730 /* Main.storyboard */; };
 		E37625852857BF2F0007C730 /* kwk_To_Do_List_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E37625832857BF2F0007C730 /* kwk_To_Do_List_Project.xcdatamodeld */; };
 		E37625872857BF360007C730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37625862857BF360007C730 /* Assets.xcassets */; };
@@ -17,6 +16,8 @@
 		E37625952857BF370007C730 /* kwk_To_Do_List_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37625942857BF370007C730 /* kwk_To_Do_List_ProjectTests.swift */; };
 		E376259F2857BF370007C730 /* kwk_To_Do_List_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376259E2857BF370007C730 /* kwk_To_Do_List_ProjectUITests.swift */; };
 		E37625A12857BF370007C730 /* kwk_To_Do_List_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37625A02857BF370007C730 /* kwk_To_Do_List_ProjectUITestsLaunchTests.swift */; };
+		E37625AE2858D45F0007C730 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37625AD2858D45F0007C730 /* TableViewController.swift */; };
+		E37625B02858D5E20007C730 /* toDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37625AF2858D5E20007C730 /* toDO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E37625772857BF2F0007C730 /* kwk To-Do List Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kwk To-Do List Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37625772857BF2F0007C730 /* toDoList.project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoList.project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E376257A2857BF2F0007C730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E376257C2857BF2F0007C730 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E376257E2857BF2F0007C730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E37625812857BF2F0007C730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E37625842857BF2F0007C730 /* kwk_To_Do_List_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kwk_To_Do_List_Project.xcdatamodel; sourceTree = "<group>"; };
 		E37625862857BF360007C730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E37625892857BF360007C730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E376258B2857BF360007C730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E37625902857BF370007C730 /* kwk To-Do List ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kwk To-Do List ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37625902857BF370007C730 /* toDoList.projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoList.projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37625942857BF370007C730 /* kwk_To_Do_List_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kwk_To_Do_List_ProjectTests.swift; sourceTree = "<group>"; };
-		E376259A2857BF370007C730 /* kwk To-Do List ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kwk To-Do List ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E376259A2857BF370007C730 /* toDoList.projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoList.projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E376259E2857BF370007C730 /* kwk_To_Do_List_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kwk_To_Do_List_ProjectUITests.swift; sourceTree = "<group>"; };
 		E37625A02857BF370007C730 /* kwk_To_Do_List_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kwk_To_Do_List_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E37625AD2858D45F0007C730 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E37625AF2858D5E20007C730 /* toDO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +93,9 @@
 		E37625782857BF2F0007C730 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E37625772857BF2F0007C730 /* kwk To-Do List Project.app */,
-				E37625902857BF370007C730 /* kwk To-Do List ProjectTests.xctest */,
-				E376259A2857BF370007C730 /* kwk To-Do List ProjectUITests.xctest */,
+				E37625772857BF2F0007C730 /* toDoList.project.app */,
+				E37625902857BF370007C730 /* toDoList.projectTests.xctest */,
+				E376259A2857BF370007C730 /* toDoList.projectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,12 +105,13 @@
 			children = (
 				E376257A2857BF2F0007C730 /* AppDelegate.swift */,
 				E376257C2857BF2F0007C730 /* SceneDelegate.swift */,
-				E376257E2857BF2F0007C730 /* ViewController.swift */,
 				E37625802857BF2F0007C730 /* Main.storyboard */,
 				E37625862857BF360007C730 /* Assets.xcassets */,
 				E37625882857BF360007C730 /* LaunchScreen.storyboard */,
 				E376258B2857BF360007C730 /* Info.plist */,
 				E37625832857BF2F0007C730 /* kwk_To_Do_List_Project.xcdatamodeld */,
+				E37625AD2858D45F0007C730 /* TableViewController.swift */,
+				E37625AF2858D5E20007C730 /* toDO.swift */,
 			);
 			path = "kwk To-Do List Project";
 			sourceTree = "<group>";
@@ -133,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E37625762857BF2F0007C730 /* kwk To-Do List Project */ = {
+		E37625762857BF2F0007C730 /* toDoList.project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E37625A42857BF370007C730 /* Build configuration list for PBXNativeTarget "kwk To-Do List Project" */;
+			buildConfigurationList = E37625A42857BF370007C730 /* Build configuration list for PBXNativeTarget "toDoList.project" */;
 			buildPhases = (
 				E37625732857BF2F0007C730 /* Sources */,
 				E37625742857BF2F0007C730 /* Frameworks */,
@@ -145,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = "kwk To-Do List Project";
+			name = toDoList.project;
 			productName = "kwk To-Do List Project";
-			productReference = E37625772857BF2F0007C730 /* kwk To-Do List Project.app */;
+			productReference = E37625772857BF2F0007C730 /* toDoList.project.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E376258F2857BF370007C730 /* kwk To-Do List ProjectTests */ = {
+		E376258F2857BF370007C730 /* toDoList.projectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E37625A72857BF370007C730 /* Build configuration list for PBXNativeTarget "kwk To-Do List ProjectTests" */;
+			buildConfigurationList = E37625A72857BF370007C730 /* Build configuration list for PBXNativeTarget "toDoList.projectTests" */;
 			buildPhases = (
 				E376258C2857BF370007C730 /* Sources */,
 				E376258D2857BF370007C730 /* Frameworks */,
@@ -163,14 +166,14 @@
 			dependencies = (
 				E37625922857BF370007C730 /* PBXTargetDependency */,
 			);
-			name = "kwk To-Do List ProjectTests";
+			name = toDoList.projectTests;
 			productName = "kwk To-Do List ProjectTests";
-			productReference = E37625902857BF370007C730 /* kwk To-Do List ProjectTests.xctest */;
+			productReference = E37625902857BF370007C730 /* toDoList.projectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E37625992857BF370007C730 /* kwk To-Do List ProjectUITests */ = {
+		E37625992857BF370007C730 /* toDoList.projectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E37625AA2857BF370007C730 /* Build configuration list for PBXNativeTarget "kwk To-Do List ProjectUITests" */;
+			buildConfigurationList = E37625AA2857BF370007C730 /* Build configuration list for PBXNativeTarget "toDoList.projectUITests" */;
 			buildPhases = (
 				E37625962857BF370007C730 /* Sources */,
 				E37625972857BF370007C730 /* Frameworks */,
@@ -181,9 +184,9 @@
 			dependencies = (
 				E376259C2857BF370007C730 /* PBXTargetDependency */,
 			);
-			name = "kwk To-Do List ProjectUITests";
+			name = toDoList.projectUITests;
 			productName = "kwk To-Do List ProjectUITests";
-			productReference = E376259A2857BF370007C730 /* kwk To-Do List ProjectUITests.xctest */;
+			productReference = E376259A2857BF370007C730 /* toDoList.projectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E37625722857BF2F0007C730 /* Build configuration list for PBXProject "kwk To-Do List Project" */;
+			buildConfigurationList = E37625722857BF2F0007C730 /* Build configuration list for PBXProject "toDoList.project" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E37625762857BF2F0007C730 /* kwk To-Do List Project */,
-				E376258F2857BF370007C730 /* kwk To-Do List ProjectTests */,
-				E37625992857BF370007C730 /* kwk To-Do List ProjectUITests */,
+				E37625762857BF2F0007C730 /* toDoList.project */,
+				E376258F2857BF370007C730 /* toDoList.projectTests */,
+				E37625992857BF370007C730 /* toDoList.projectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,10 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E376257F2857BF2F0007C730 /* ViewController.swift in Sources */,
 				E37625852857BF2F0007C730 /* kwk_To_Do_List_Project.xcdatamodeld in Sources */,
 				E376257B2857BF2F0007C730 /* AppDelegate.swift in Sources */,
 				E376257D2857BF2F0007C730 /* SceneDelegate.swift in Sources */,
+				E37625B02858D5E20007C730 /* toDO.swift in Sources */,
+				E37625AE2858D45F0007C730 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		E37625922857BF370007C730 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E37625762857BF2F0007C730 /* kwk To-Do List Project */;
+			target = E37625762857BF2F0007C730 /* toDoList.project */;
 			targetProxy = E37625912857BF370007C730 /* PBXContainerItemProxy */;
 		};
 		E376259C2857BF370007C730 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E37625762857BF2F0007C730 /* kwk To-Do List Project */;
+			target = E37625762857BF2F0007C730 /* toDoList.project */;
 			targetProxy = E376259B2857BF370007C730 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -503,7 +507,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kwk To-Do List Project.app/kwk To-Do List Project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toDoList.project.app/toDoList.project";
 			};
 			name = Debug;
 		};
@@ -522,7 +526,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kwk To-Do List Project.app/kwk To-Do List Project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toDoList.project.app/toDoList.project";
 			};
 			name = Release;
 		};
@@ -563,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E37625722857BF2F0007C730 /* Build configuration list for PBXProject "kwk To-Do List Project" */ = {
+		E37625722857BF2F0007C730 /* Build configuration list for PBXProject "toDoList.project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E37625A22857BF370007C730 /* Debug */,
@@ -572,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E37625A42857BF370007C730 /* Build configuration list for PBXNativeTarget "kwk To-Do List Project" */ = {
+		E37625A42857BF370007C730 /* Build configuration list for PBXNativeTarget "toDoList.project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E37625A52857BF370007C730 /* Debug */,
@@ -581,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E37625A72857BF370007C730 /* Build configuration list for PBXNativeTarget "kwk To-Do List ProjectTests" */ = {
+		E37625A72857BF370007C730 /* Build configuration list for PBXNativeTarget "toDoList.projectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E37625A82857BF370007C730 /* Debug */,
@@ -590,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E37625AA2857BF370007C730 /* Build configuration list for PBXNativeTarget "kwk To-Do List ProjectUITests" */ = {
+		E37625AA2857BF370007C730 /* Build configuration list for PBXNativeTarget "toDoList.projectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E37625AB2857BF370007C730 /* Debug */,
